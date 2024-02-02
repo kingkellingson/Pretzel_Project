@@ -212,7 +212,7 @@ public class OneChange {
 
     private static void testSubtract(int takeFrom, ArrayList<String[]> onPage) {
         switch (takeFrom) {
-            case 6, 9:
+            case 6,9:
                 onPage.add(numToPretzel.get(5));
                 break;
             case 7:
